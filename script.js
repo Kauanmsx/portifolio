@@ -13,7 +13,7 @@ const texto = `Olá meu nome é ${nome}. ${mensagem}`;
 
 const msg = encodeURIComponent(texto);
 
-window.open(`https://whatsa.me/5571981825574${telefone}?text=${msg}`);
+window.open(`https://whatsa.me/${telefone}?text=${msg}`);
 
 });
 

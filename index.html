@@ -1,117 +1,305 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>DevFullStack | Portfólio</title>
-
+<title>Kauan Marinho | Portfólio</title>
 <link rel="stylesheet" href="style.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 <nav class="navegacao">
-<ul class="menu">
-
-<li>
-<a href="#inicio" class="menu-link">Início</a>
-</li>
-
-<li>
-<a href="#sobre" class="menu-link">Sobre</a>
-</li>
-
-<li>
-<a href="#projetos" class="menu-link">Projetos</a>
-</li>
-
-<li>
-<a href="#contatos" class="menu-link">Contato</a>
-</li>
-
-</ul>
+  <div class="nav-logo">KM<span>.</span></div>
+  <ul class="menu">
+    <li><a href="#inicio" class="menu-link">Início</a></li>
+    <li><a href="#sobre" class="menu-link">Sobre</a></li>
+    <li><a href="#skills" class="menu-link">Skills</a></li>
+    <li><a href="#certificados" class="menu-link">Certificados</a></li>
+    <li><a href="#projetos" class="menu-link">Projetos</a></li>
+    <li><a href="#contatos" class="menu-link">Contato</a></li>
+  </ul>
 </nav>
 
+<canvas id="particles" class="particles-canvas"></canvas>
 <main id="inicio" class="cabecalho">
-
-<img src="img/perfil.png" alt="Foto Kauan Marinho" class="foto-perfil">
-
-<h1>Kauan Marinho</h1>
-
-<p class="cabecalho-sub-titulo">
-Desenvolvedor FullStack
-</p>
-
+  <div class="hero-content">
+    <p class="hero-tag">// desenvolvedor web</p>
+    <h1>Kauan<br><span>Marinho</span></h1>
+    <p class="cabecalho-sub-titulo">Graduando em ADS · Salvador, Brasil</p>
+    <div class="hero-btns">
+      <a href="#projetos" class="btn-primary">Ver Projetos</a>
+      <a href="#contatos" class="btn-secondary">Falar Comigo</a>
+    </div>
+  </div>
+  <div class="hero-img-wrap">
+    <img src="img/perfil.png" alt="Foto Kauan Marinho" class="foto-perfil">
+    <div class="hero-ring"></div>
+  </div>
 </main>
 
 <section id="sobre" class="sobre">
+  <div class="section-label">// sobre mim</div>
+  <h2 class="section-titulo">Quem sou eu?</h2>
+  <div class="sobre-grid">
+    <div class="sobre-caixa">
+      <p class="sobre-paragrafo">
+        Olá! Sou Kauan Marinho, desenvolvedor web apaixonado por tecnologia e por transformar ideias em soluções digitais. Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na Unijorge, Salvador — BA.
+      </p>
+      <p class="sobre-paragrafo">
+        Tenho focado meus estudos em desenvolvimento web com HTML, CSS e JavaScript, além de estrutura de dados em C. Busco constantemente evoluir e construir projetos que gerem valor real.
+      </p>
+      <div class="sobre-info-grid">
+        <div class="sobre-info-item"><i class="fa-solid fa-graduation-cap"></i><span>Unijorge — ADS (2025)</span></div>
+        <div class="sobre-info-item"><i class="fa-solid fa-location-dot"></i><span>Salvador, Brasil</span></div>
+        <div class="sobre-info-item"><i class="fa-solid fa-circle-check"></i><span>Disponível para oportunidades</span></div>
+        <div class="sobre-info-item"><i class="fa-solid fa-envelope"></i><span>Kauanmarinhodeposito178@gmail.com</span></div>
+      </div>
+    </div>
+    <div class="educacao-box">
+      <h3><i class="fa-solid fa-book"></i> Formação</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-ano">2025 — cursando</span>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <p>Unijorge — Salvador, BA</p>
+        </div>
+      </div>
+      <h3 style="margin-top:2rem"><i class="fa-solid fa-laptop-code"></i> Projetos & Prática</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-ano">2025 — presente</span>
+          <h4>Desenvolvimento Web</h4>
+          <p>Projetos acadêmicos e pessoais com HTML, CSS, JS e C</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-ano">2025</span>
+          <h4>Inteligência Artificial</h4>
+          <p>Desenvolvimento de chatbot com integração via OpenRouter</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<h2 class="sobre-titulo">Sobre Mim</h2>
+<section id="skills" class="skills-section">
+  <div class="section-label">// habilidades</div>
+  <h2 class="section-titulo">Minha Stack</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fa-brands fa-html5"></i>
+      <span>HTML5</span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-css3-alt"></i>
+      <span>CSS3</span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-js"></i>
+      <span>JavaScript</span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-code"></i>
+      <span>C</span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-git-alt"></i>
+      <span>Git</span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="skill-card aprendendo">
+      <i class="fa-brands fa-react"></i>
+      <span>React<small>estudando</small></span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="skill-card aprendendo">
+      <i class="fa-brands fa-node-js"></i>
+      <span>Node.js<small>estudando</small></span>
+      <div class="skill-stars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="sobre-caixa">
-
-<p class="sobre-paragrafo">
-
-Olá! Sou um desenvolvedor Full Stack apaixonado por tecnologia e por transformar ideias em soluções digitais eficientes.
-
-</p>
-
-</div>
-
+<section id="certificados" class="certificados">
+  <div class="section-label">// certificados</div>
+  <h2 class="section-titulo">Certificações</h2>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="cert-info">
+        <h3>Scrum Fundamentals Certified</h3>
+        <p class="cert-org">SCRUMstudy — SFC™</p>
+        <p class="cert-data"><i class="fa-regular fa-calendar"></i> Junho de 2025</p>
+        <p class="cert-id">ID: 1085527</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="projetos" class="projetos">
+  <div class="section-label">// projetos</div>
+  <h2 class="section-titulo">Meus Projetos</h2>
+  <div class="projetos-caixa">
 
-<h2 class="projetos-titulo">Meus Projetos</h2>
+    <div class="projetos-card">
+      <div class="projetos-imagem proj-placeholder adaptaai">
+        <div class="adaptaai-logo">A</div>
+        <p>AdaptaAI</p>
+      </div>
+      <div class="caixa-textos-projetos">
+        <h3 class="info-projetos">AdaptaAI</h3>
+        <p class="paragrafo-projeto">Chatbot com inteligência artificial conectado via OpenRouter. Interface limpa e responsiva com suporte a conversas em tempo real.</p>
+        <div class="proj-tags">
+          <span>HTML</span><span>CSS</span><span>JS</span><span>IA</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/Kauanmsx" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+        </div>
+      </div>
+    </div>
 
-<div class="projetos-caixa">
+    <div class="projetos-card">
+      <div class="projetos-imagem proj-placeholder techsolutions">
+        <i class="fa-solid fa-layer-group"></i>
+        <p>TechSolutions</p>
+      </div>
+      <div class="caixa-textos-projetos">
+        <h3 class="info-projetos">TechSolutions</h3>
+        <p class="paragrafo-projeto">Landing page institucional para empresa fictícia de tecnologia. Apresentação de serviços, equipe e contato.</p>
+        <div class="proj-tags">
+          <span>HTML</span><span>CSS</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/Kauanmsx/frontEnd" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+        </div>
+      </div>
+    </div>
 
-<div class="projetos-card">
+    <div class="projetos-card">
+      <div class="projetos-imagem proj-placeholder pilhas">
+        <i class="fa-solid fa-database"></i>
+        <p>Pilhas em C</p>
+      </div>
+      <div class="caixa-textos-projetos">
+        <h3 class="info-projetos">Pilha Sequencial em C</h3>
+        <p class="paragrafo-projeto">Implementação de estrutura de dados Pilha Sequencial em C com 4 aplicações: binário, parênteses, palíndromo e notação polonesa reversa.</p>
+        <div class="proj-tags">
+          <span>C</span><span>Estrutura de Dados</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/Kauanmsx/Atividade-Estruturada-3" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+        </div>
+      </div>
+    </div>
 
-<img src="img/projeto 1 .png" class="projetos-imagem">
-
-<div class="caixa-textos-projetos">
-
-<h3 class="info-projetos">Site Pessoal</h3>
-
-<p class="paragrafo-projeto">
-
-Projeto desenvolvido para demonstrar habilidades em desenvolvimento web moderno.
-
-</p>
-
-</div>
-
-
-
+  </div>
 </section>
 
 <section id="contatos" class="contatos">
-
-<h2 class="contatos-titulo">Entre em Contato</h2>
-
-<form class="formulario-contato" id="formulario">
-
-<div class="grupo-form">
-<input placeholder="Nome" class="campo-form">
-</div>
-
-<div class="grupo-form">
-<textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
-</div>
-
-<button type="submit" class="botao-form">
-Enviar ao WhatsApp
-</button>
-
-</form>
-
+  <div class="section-label">// contato</div>
+  <h2 class="section-titulo">Entre em Contato</h2>
+  <div class="contato-grid">
+    <div class="contato-info">
+      <p>Tem um projeto em mente ou quer trocar uma ideia? Me chama!</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/kauan-marinho" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+        <a href="https://github.com/Kauanmsx" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="mailto:Kauanmarinhodeposito178@gmail.com"><i class="fa-solid fa-envelope"></i> E-mail</a>
+      </div>
+    </div>
+    <form class="formulario-contato" id="formulario">
+      <div class="grupo-form">
+        <input placeholder="Seu nome" class="campo-form">
+      </div>
+      <div class="grupo-form">
+        <textarea class="campo-form" placeholder="Sua mensagem" rows="5"></textarea>
+      </div>
+      <button type="submit" class="botao-form">
+        <i class="fa-brands fa-whatsapp"></i> Enviar pelo WhatsApp
+      </button>
+    </form>
+  </div>
 </section>
 
-<script src="script.js"></script>
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="nav-logo">KM<span>.</span></span>
+    <p>Desenvolvido por <strong>Kauan Marinho</strong> &copy; 2025</p>
+    <div class="footer-sociais">
+      <a href="https://linkedin.com/in/kauan-marinho" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Kauanmsx" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:Kauanmarinhodeposito178@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
 
-</body>
+<script src="script.js"></script>
+<script>
+const canvas = document.getElementById('particles');
+const ctx = canvas.getContext('2d');
+
+function resize(){canvas.width=window.innerWidth;canvas.height=window.innerHeight;}
+resize();
+window.addEventListener('resize',resize);
+
+const particles = Array.from({length:60},()=>({
+  x:Math.random()*canvas.width,
+  y:Math.random()*canvas.height,
+  r:Math.random()*1.5+0.5,
+  dx:(Math.random()-.5)*.4,
+  dy:(Math.random()-.5)*.4,
+  alpha:Math.random()*.5+.1
+}));
+
+function draw(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  particles.forEach(p=>{
+    ctx.beginPath();
+    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(0,198,255,${p.alpha})`;
+    ctx.fill();
+    p.x+=p.dx;p.y+=p.dy;
+    if(p.x<0||p.x>canvas.width)p.dx*=-1;
+    if(p.y<0||p.y>canvas.height)p.dy*=-1;
+  });
+
+  // linhas entre partículas próximas
+  for(let i=0;i<particles.length;i++){
+    for(let j=i+1;j<particles.length;j++){
+      const dx=particles[i].x-particles[j].x;
+      const dy=particles[i].y-particles[j].y;
+      const dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist<120){
+        ctx.beginPath();
+        ctx.moveTo(particles[i].x,particles[i].y);
+        ctx.lineTo(particles[j].x,particles[j].y);
+        ctx.strokeStyle=`rgba(0,198,255,${.08*(1-dist/120)})`;
+        ctx.lineWidth=.5;
+        ctx.stroke();
+      }
+    }
+  }
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
 </html>

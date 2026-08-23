@@ -7,7 +7,7 @@ form.addEventListener("submit", function(e){
   const telefone = "5571981825574";
   const texto = `Olá meu nome é ${nome}. ${mensagem}`;
   const msg = encodeURIComponent(texto);
-  window.open(`https://whatsa.me/${telefone}?text=${msg}`);
+ window.open(`https://wa.me/${telefone}?text=${msg}`);
 });
  
 const sections = document.querySelectorAll("section");

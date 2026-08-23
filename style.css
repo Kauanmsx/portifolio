@@ -49,7 +49,17 @@ body{
 .menu-link{color:var(--muted);text-decoration:none;font-size:.88rem;font-weight:500;letter-spacing:.02em;transition:.25s;}
 .menu-link:hover{color:var(--text);}
 
-/* HERO */
+.logotipo {
+  max-height: 45px; /* Controla a altura máxima da logo */
+  width: auto;      /* Mantém a proporção da imagem correta */
+  object-fit: contain;
+  display: block;
+}
+.logotipo:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
 .cabecalho{
   height:100vh;
   scroll-snap-align:start;
@@ -165,8 +175,6 @@ section.ativo{opacity:1;transform:translateY(0);}
 .skill-card small{display:block;font-size:.7rem;color:var(--muted);font-weight:400;margin-top:.2rem;}
 .skill-stars{display:flex;justify-content:center;gap:2px;}
 .skill-stars i{font-size:.65rem;color:var(--accent);}
-.skill-stars .fa-regular{color:var(--border);}
-.aprendendo{opacity:.6;border-style:dashed;}
 
 /* CERTIFICADOS */
 .certificados{background:var(--bg2);}
@@ -200,18 +208,9 @@ section.ativo{opacity:1;transform:translateY(0);}
   height:200px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem;
 }
+
 .proj-placeholder i{font-size:2.5rem;opacity:.4;}
 .proj-placeholder p{font-weight:600;font-size:.9rem;opacity:.5;}
-
-.adaptaai{background:linear-gradient(135deg,#1a1025,#0d0d1a);}
-.adaptaai i,.adaptaai p{color:#a78bfa;}
-.adaptaai-logo{
-  width:52px;height:52px;border-radius:12px;
-  background:linear-gradient(135deg,#7c3aed,#4f46e5);
-  display:flex;align-items:center;justify-content:center;
-  font-size:1.4rem;font-weight:700;color:white;margin-bottom:.4rem;
-}
-.adaptaai p{color:#a78bfa;opacity:.8;font-size:.88rem;}
 
 .techsolutions{background:linear-gradient(135deg,#0a1628,#0d1f3c);}
 .techsolutions i,.techsolutions p{color:var(--accent);}
@@ -298,4 +297,17 @@ section.ativo{opacity:1;transform:translateY(0);}
   .menu{gap:1.2rem;}
   .sobre-info-grid{grid-template-columns:1fr;}
   .skills-grid{grid-template-columns:repeat(auto-fit,minmax(120px,1fr));}
+}
+
+/* ESTILIZAÇÃO DE PROJETO */
+ 
+.projetos-imagem{
+  position:relative;
+  overflow: hidden;
+}
+.video-projeto{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

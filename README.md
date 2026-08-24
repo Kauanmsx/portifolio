@@ -36,27 +36,30 @@ portifolio/
 
 ## 🚀 Projetos em Destaque
 
-### 🤖 AdaptaAI
-Chatbot com inteligência artificial conectado via OpenRouter. Interface limpa e responsiva com suporte a conversas em tempo real.  
-`HTML` `CSS` `JavaScript` `IA`  
-[→ Ver código](https://github.com/Kauanmsx)
+### 🤖 Dra. Ana Lopes
+Este projeto consiste no desenvolvimento de um site institucional premium para a Dra. Ana Lopes, Biomédica Esteta, com foco em oferecer uma experiência digital sofisticada, intuitiva e altamente responsiva.
+`HTML` `CSS` `JavaScript` `IA` `Next.js` `React` `Responsive Design`
+[→ Ver código]([https://github.com/Kauanmsx](https://github.com/Kauanmsx/Portf-lio-Ana-Lopes-.git))
 
-### 🏢 TechSolutions
-Landing page institucional para empresa fictícia de tecnologia. Apresentação de serviços, equipe e contato.  
+### 🏢 Convites Personalizados
+Uma landing page interativa e romântica, criada para funcionar como uma declaração e um convite digital personalizado. O objetivo principal foi transformar uma mensagem especial em uma experiência online fluida, moderna e visualmente atrativa.
 `HTML` `CSS`  
-[→ Ver código](https://github.com/Kauanmsx/frontEnd)
+[→ Ver código]([https://github.com/Kauanmsx/frontEnd](https://github.com/Kauanmsx/carta-pra-bibia.git))
 
-### 📚 Pilha Sequencial em C
-Implementação de estrutura de dados Pilha Sequencial em C com 4 aplicações: binário, parênteses, palíndromo e notação polonesa reversa.  
-`C` `Estrutura de Dados`  
-[→ Ver código](https://github.com/Kauanmsx/Atividade-Estruturada-3)
+### 📚 PsicoManager
+O PsicoManager é uma plataforma web desenvolvida para centralizar a gestão clínica, administrativa e financeira de profissionais de Psicologia em diversas áreas de atuação (Clínica, TCC, Psicanálise, Organizacional, Escolar e Hospitalar).
+`TypeScript` `React`  `Vite` `Bootstrap` `IA`
+[→ Ver código]([https://github.com/Kauanmsx/Atividade-Estruturada-3](https://github.com/caioba19/clinica-psicologica.git))
 
 ---
 
 ## 🏅 Certificações
 
 - **Scrum Fundamentals Certified** — SCRUMstudy SFC™ · Junho/2025 · ID: 1085527
-
+- **Linguagem De Programação Python -  FAQ · agosto/2026
+- ** IA para seu novo Emprego -  FAQ · agosto/2026
+- **Comunicação e Mobilização com IA -  FAQ · agosto/2026
+- **Crie um Site Simples usando HTML, CSS e JavaScript -  FAQ · agosto/2026
 ---
 
 ## 🚀 Como rodar localmente
